@@ -1,4 +1,4 @@
-package org.algorithm.heapsort.algorithm;
+package org.algorithm.heapsort.solve;
 
 public enum HeapDirectionEnum {
 

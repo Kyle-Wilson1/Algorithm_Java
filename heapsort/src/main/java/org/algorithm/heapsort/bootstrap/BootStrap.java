@@ -1,11 +1,10 @@
 package org.algorithm.heapsort.bootstrap;
 
-import org.algorithm.heapsort.algorithm.HeapDirectionEnum;
+import org.algorithm.heapsort.solve.HeapDirectionEnum;
 import org.algorithm.heapsort.domain.Node;
-import org.algorithm.heapsort.algorithm.HeapSort;
+import org.algorithm.heapsort.solve.HeapSort;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.annotation.Resource;
 import java.util.*;
 
 public class BootStrap {

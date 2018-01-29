@@ -1,4 +1,4 @@
-package org.algorithm.heapsort.algorithm;
+package org.algorithm.heapsort.solve;
 
 import org.springframework.stereotype.Component;
 
