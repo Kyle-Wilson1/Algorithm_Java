@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="heapsort:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="heapsort.war">
-      <element id="artifact" artifact-name="heapsort:war exploded" />
-    </root>
-  </artifact>
-</component>

@@ -1,6 +1,6 @@
 package org.algorithm.heapsort.domain;
 
-import org.algorithm.AbstractHeapObject;
+import org.algorithm.heapsort.solve.AbstractHeapObject;
 
 public class Node extends AbstractHeapObject {
 

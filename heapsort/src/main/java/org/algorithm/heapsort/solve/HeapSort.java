@@ -2,18 +2,16 @@ package org.algorithm.heapsort.solve;
 
 import org.springframework.stereotype.Component;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
-public class HeapSort<T extends org.algorithm.AbstractHeapObject> {
+public class HeapSort<T extends AbstractHeapObject> {
 
     private List<T> sourceData;
     private HeapDirectionEnum direction;
     private List<T> heap;
     private int heapCapability;
-
-    public HeapSort() {
-    }
 
     public List<T> getSourceData() {
         return sourceData;
@@ -50,8 +48,6 @@ public class HeapSort<T extends org.algorithm.AbstractHeapObject> {
         //初始化堆容量
         if (heap == null) {
             heap = new ArrayList<>(heapCapability);
-        } else {
-            heap.clear();
         }
 
         sourceData.forEach(x -> {
