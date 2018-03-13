@@ -25,7 +25,7 @@ public class Node extends AbstractHeapObject {
     public String toString() {
         return "Node{" +
                 "key=" + key +
-                "value=" + value +
+                ", value=" + value +
                 '}';
     }
 }

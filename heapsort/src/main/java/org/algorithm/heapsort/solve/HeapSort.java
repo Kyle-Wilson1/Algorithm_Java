@@ -13,24 +13,8 @@ public class HeapSort<T extends AbstractHeapObject> {
     private List<T> heap;
     private int heapCapability;
 
-    public List<T> getSourceData() {
-        return sourceData;
-    }
-
-    public void setSourceData(List<T> sourceData) {
-        this.sourceData = sourceData;
-    }
-
-    public HeapDirectionEnum getDirection() {
-        return direction;
-    }
-
     public void setDirection(HeapDirectionEnum direction) {
         this.direction = direction;
-    }
-
-    public int getHeapCapability() {
-        return heapCapability;
     }
 
     public void setHeapCapability(int heapCapability) {

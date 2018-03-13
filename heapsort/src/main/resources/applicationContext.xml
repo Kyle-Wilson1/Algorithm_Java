@@ -16,7 +16,7 @@
 
     <context:component-scan base-package="org.algorithm.heapsort">
         <!--将Controller的注解排除掉 -->
-        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
     </context:component-scan>
 
     <aop:aspectj-autoproxy/>
