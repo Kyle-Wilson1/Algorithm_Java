@@ -2,7 +2,7 @@ package org.algorithm.heapsort.domain;
 
 import org.algorithm.heapsort.solve.AbstractHeapObject;
 
-public class Node extends AbstractHeapObject {
+public class Node implements AbstractHeapObject {
 
     private Long key;
     private Long value;

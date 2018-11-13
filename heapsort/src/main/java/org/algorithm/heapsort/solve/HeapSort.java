@@ -1,11 +1,8 @@
 package org.algorithm.heapsort.solve;
 
-import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
 public class HeapSort<T extends AbstractHeapObject> {
 
     private List<T> sourceData;
