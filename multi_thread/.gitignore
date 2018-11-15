@@ -1,0 +1,9 @@
+target
+gen-py
+/core
+/build
+.DS_Store
+/logs
+*.iml
+.idea
+my_log*
