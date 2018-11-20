@@ -82,6 +82,8 @@ public class App {
             }
         } catch (Exception e) {
             LOGGER.warn("testFutureTaskWithPool(), exception", e);
+        } finally {
+            executorService.shutdown();
         }
     }
 
@@ -102,6 +104,8 @@ public class App {
             }
         } catch (Exception e) {
             LOGGER.warn("test_testFutureWithPool(), exception", e);
+        } finally {
+            executorService.shutdown();
         }
 
     }
